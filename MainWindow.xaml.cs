@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TestDemo.Models;
 
 namespace TestDemo
 {
@@ -23,6 +24,16 @@ namespace TestDemo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void buttonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            using (AppContextDb db = new AppContextDb())
+            {
+                User user = new User { Username = "Sergey", Password = "1q2w3e" };
+                db.Users.Add(user);
+                db.SaveChanges();
+            }
         }
     }
 }
