@@ -1,0 +1,5 @@
+C:\Users\fidst\source\repos\TestDemo\TestDemo\obj\Debug\net5.0-windows\TestDemo.csprojAssemblyReference.cache
+C:\Users\fidst\source\repos\TestDemo\TestDemo\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\fidst\source\repos\TestDemo\TestDemo\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\fidst\source\repos\TestDemo\TestDemo\obj\Debug\net5.0-windows\TestDemo_MarkupCompile.cache
+C:\Users\fidst\source\repos\TestDemo\TestDemo\obj\Debug\net5.0-windows\TestDemo_MarkupCompile.lref
